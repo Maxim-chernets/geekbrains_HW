@@ -5,4 +5,4 @@ hours = int(time_sec // 3600)
 minutes = int(time_sec % 3600 // 60)
 seconds = int(time_sec % 3600 % 60)
 
-print(f'{hours} часов {minutes} минут {seconds} секунд')
+print(f'{hours}:{minutes}:{seconds}')
